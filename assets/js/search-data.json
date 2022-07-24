@@ -1,0 +1,56 @@
+{"0": {
+    "doc": "About",
+    "title": "About",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/about/",
+    "relUrl": "/about/"
+  },"1": {
+    "doc": "About",
+    "title": "Hello!, Привет! Здравейте!, Hola!, Hallå!, Hei!",
+    "content": ". Hello everyone! My name is Tsvetan and in my free time I work on Basic RUM. At the it’s just me and a friend who helps me with programming some components on Golang but I am a believer that soon there will be more Basic RUM contributors. ",
+    "url": "http://0.0.0.0:4000/about/#hello-%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82-%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D0%B5%D0%B9%D1%82%D0%B5-hola-hall%C3%A5-hei",
+    "relUrl": "/about/#hello-привет-здравейте-hola-hallå-hei"
+  },"2": {
+    "doc": "Contact",
+    "title": "Contact",
+    "content": "Drop me a line in case you are interested to talk about Basic RUM: . | Email: Tsvean Stoychev - tsto@basicrum.com | Twitter: @ceckoslab | . ",
+    "url": "http://0.0.0.0:4000/contact/",
+    "relUrl": "/contact/"
+  },"3": {
+    "doc": "Cost analyses",
+    "title": "Cost analyses",
+    "content": "| Disclaimer: | . | The analyses focused only on price for hardware and were done while working on a proof of concept version of Basic RUM that solves some basic business use cases. This doesn’t include the time spent for setting up the hardware and building dashboards. There is a hidden cost and at this point it will be naive to compare Basic RUM with commercial tools that provide, 24/7 support, implement failover mechanisms and provide professional services. | . We run some tests based on real users traffic and for the cost of about 18.50 Euro a month a website with 50 000 views a day / 1.5 million views a month could be efficiently monitored. The tests we run on the cheapest HETZNER Cloud servers - CX11 (1 vCPU Intel, 2 GB RAM, 20 GB disk space). Also a HETZNER Load balancer was added which contributed to the final price. | # | Service | Instance type | Price | . | 1 | Beacon catcher and beacons decoder | CX11 | 4.15 € / monthly | . | 2 | Grafana | CX11 | 4.15 € / monthly | . | 3 | ClickHouse | CX11 | 4.15 € / monthly | . | 4 | Load balancer | CX11 | 5.83 € / monthly | . |   |   |   | 18.28 € / monthly | . Note: The prices were taken on October 18th 2021. In the future the prices could change. The cost could be reduced even more: . | Reduce 5.83 € / monthly - The Load balancer could be removed. We used it because it was more practical and easier to install SSL certificates. | . ",
+    "url": "http://0.0.0.0:4000/cost-analyses/",
+    "relUrl": "/cost-analyses/"
+  },"4": {
+    "doc": "Basic RUM",
+    "title": "Budget - Open Source -  Real User Monitoring system.",
+    "content": "A tasty mix of Boomerang JS, ClickHouse DB and Grafana. Demo . ",
+    "url": "http://0.0.0.0:4000/#budget---open-source----real-user-monitoring-system",
+    "relUrl": "/#budget---open-source----real-user-monitoring-system"
+  },"5": {
+    "doc": "Basic RUM",
+    "title": "What’s Basic RUM?",
+    "content": "Basic RUM is a budget, open source Real User Monitoring system aimed to enable web performance enthusiasts, consultants, Ops and developers and others to visualize and look at trends in performance data. Load tests proven that for about 15 Euro a month a website with 50 000 views a day / 1.5 million views a month could be efficiently monitored. Read more about the budget research. ",
+    "url": "http://0.0.0.0:4000/#whats-basic-rum",
+    "relUrl": "/#whats-basic-rum"
+  },"6": {
+    "doc": "Basic RUM",
+    "title": "How it works?",
+    "content": "This is a high level overview of the Basic RUM components: . | A visitor loads a webpage and with the help of Boomerang JS we collect performance information and other page details. The performance information is sent over a beacon to the Beacon Catcher server. | The Beacon Catcher server persists beacons in a raw format in a temporary storage prepared for reading and decoding on the nex. | The beacon decoding service reads a batch of raw beacons, decodes them and prepares the decoded beacon data for inserting in ClickHouse DB. | The raw beacons are bundled, compressed and stored in a file system. The stored beacons could be used as a backup or re-imported in case we add new columns in ClickHouse DB. | The decoded beacon data is inserted in a flat table in ClickHouse DB. Columns in this table for example are: Time To First Byte (TTFB), First Input Delay (FID), Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS) and others. | Grafana visualizes performance information by querying ClickHouse DB. We have a bunch of pre-backed dashboards that visualize Core Web Vitals and other performance data in histograms, percentile, barcharts and more. | . ",
+    "url": "http://0.0.0.0:4000/#how-it-works",
+    "relUrl": "/#how-it-works"
+  },"7": {
+    "doc": "Basic RUM",
+    "title": "Basic RUM",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/",
+    "relUrl": "/"
+  },"8": {
+    "doc": "Publications",
+    "title": "Publications",
+    "content": "A list of external publications . | 2021 - ClickHouse: Don’t miss out on this database | 2019 - Lessons learned from developing my Real User Monitoring system | 2018 - Open source backend RUM tool. Wait! What? | . ",
+    "url": "http://0.0.0.0:4000/publications/",
+    "relUrl": "/publications/"
+  }
+}
