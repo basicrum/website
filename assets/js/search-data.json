@@ -7,7 +7,7 @@
   },"1": {
     "doc": "About",
     "title": "Hello!, Привет!, Здравейте!, Hola!, Hallå!, Hei!",
-    "content": ". Hello everyone! My name is Tsvetan and in my free time I work on Basic RUM. For now it’s just me and a friend who helps me with programming some components on Golang but I am a believer that soon there will be more Basic RUM contributors. ",
+    "content": ". Hello everyone! My name is Tsvetan and in my free time I work on Basic RUM - the open source system for webperformance oriented real user monitoring. For now it’s just me and a friend who helps me with building some components on Golang but with the time will be a community of users and contributors. ",
     "url": "https://www.basicrum.com/about/#hello-%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82-%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D0%B5%D0%B9%D1%82%D0%B5-hola-hall%C3%A5-hei",
     "relUrl": "/about/#hello-привет-здравейте-hola-hallå-hei"
   },"2": {
@@ -31,15 +31,15 @@
   },"5": {
     "doc": "Basic RUM",
     "title": "What’s Basic RUM?",
-    "content": "Basic RUM is a budget, open source Real User Monitoring system aimed to enable web performance enthusiasts, consultants, Ops and developers and others to visualize and look at trends in performance data. Load tests proven that for about 15 Euro a month a website with 50 000 views a day / 1.5 million views a month could be efficiently monitored. Read more about the budget research. ",
+    "content": "Basic RUM is a budget, open source Real User Monitoring system aimed to enable web performance enthusiasts, consultants, Ops and developers and others to visualise and look at trends in performance data. Load tests proved that for about 15 Euro a month a website with 50 000 views a day / 1.5 million views a month could be efficiently monitored. Read more about the budget research. ",
     "url": "https://www.basicrum.com/#whats-basic-rum",
     "relUrl": "/#whats-basic-rum"
   },"6": {
     "doc": "Basic RUM",
-    "title": "How it works?",
-    "content": "This is a high level overview of the Basic RUM components: . | A visitor loads a webpage and with the help of Boomerang JS we collect performance information and other page details. The performance information is sent over a beacon to the Beacon Catcher server. | The Beacon Catcher server persists beacons in a raw format in a temporary storage prepared for reading and decoding on the nex. | The beacon decoding service reads a batch of raw beacons, decodes them and prepares the decoded beacon data for inserting in ClickHouse DB. | The raw beacons are bundled, compressed and stored in a file system. The stored beacons could be used as a backup or re-imported in case we add new columns in ClickHouse DB. | The decoded beacon data is inserted in a flat table in ClickHouse DB. Columns in this table for example are: Time To First Byte (TTFB), First Input Delay (FID), Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS) and others. | Grafana visualizes performance information by querying ClickHouse DB. We have a bunch of pre-backed dashboards that visualize Core Web Vitals and other performance data in histograms, percentile, barcharts and more. | . ",
-    "url": "https://www.basicrum.com/#how-it-works",
-    "relUrl": "/#how-it-works"
+    "title": "How does it work?",
+    "content": "This is a high level overview of the Basic RUM components: . | A visitor loads a webpage and with the help of Boomerang JS we collect performance information and other page details. The performance information is sent over a beacon to the Beacon Catcher server. | The Beacon Catcher server persists beacons in a raw format in a temporary storage prepared for reading and decoding on the nex. | The beacon decoding service reads a batch of raw beacons, decodes them and prepares the decoded beacon data for inserting in ClickHouse DB. | The raw beacons are bundled, compressed and stored in a file system. The stored beacons could be used as a backup or re-imported in case we add new columns in ClickHouse DB. | The decoded beacon data is inserted in a flat table in ClickHouse DB. Columns in this table for example are: Time To First Byte (TTFB), First Input Delay (FID), Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS) and others. | Grafana visualises performance information by querying ClickHouse DB. We have a bunch of pre-backed dashboards that visualise Core Web Vitals and other performance data in histograms, percentile, barcharts and more. | . ",
+    "url": "https://www.basicrum.com/#how-does-it-work",
+    "relUrl": "/#how-does-it-work"
   },"7": {
     "doc": "Basic RUM",
     "title": "Basic RUM",
