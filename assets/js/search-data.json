@@ -6,10 +6,10 @@
     "relUrl": "/about/"
   },"1": {
     "doc": "About",
-    "title": "Hello!, Привет!, Здравейте!, Hola!, Hallå!, Hei!",
-    "content": ". Hello everyone! My name is Tsvetan and in my free time I work on Basic RUM - the open source system for webperformance oriented real user monitoring. For now it’s just me and a friend who helps me with building some components on Golang but with the time will be a community of users and contributors. ",
-    "url": "https://www.basicrum.com/about/#hello-%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82-%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D0%B5%D0%B9%D1%82%D0%B5-hola-hall%C3%A5-hei",
-    "relUrl": "/about/#hello-привет-здравейте-hola-hallå-hei"
+    "title": "Hello!, Hola!, Hallå!, Hei!, Привет!, Здравейте!",
+    "content": "How did Basic RUM begin? . Hi everyone! . I’m Tsvetan, and a few years back, I started working on Basic RUM as a fun side project. In 2019, I joined Akamai, but in 2017, I was part of a team running a webshop using Magento. We wanted to find ways to make more revenue, so I wondered if making the webshop faster would help. Our backend servers were already pretty well optimized, so I started looking at other things. I learned about ways to make the website faster for users. These tricks went beyond just the Time to First Byte stuff but were touching the front-end. The catch was, my colleagues and I were used to working with backend code, and these new tricks were about the front-end of the website. We thought about learning these cool front-end tricks, but then we asked ourselves, “How can we prove they actually make things better?” Also, I remember reading that moving all the JavaScript to the end of the webpage could make the page show up faster. But a few months later, I read that people were saying this was a bad practice. At the same time, we had a bunch of other things to work on for different departments. I wanted to make sure our ideas made sense and fit with the company’s plans. That’s when I realized we could really use something that measures how fast the website feels for the end user. Well, that’s what Real User Monitoring (RUM) is all about. I looked into different products that provide RUM, but most of the options were too expensive for our budget back then. So, during my free time, I started learning about Boomerang JS, which is a tool that grabs information about how fast a website works from people’s web browsers. I also figured out how to collect and show the data in dashboards. And that’s the story of how Basic RUM came to be – a project that started from my curiosity and turned into something pretty cool! . ",
+    "url": "https://www.basicrum.com/about/#hello-hola-hall%C3%A5-hei-%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82-%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D0%B5%D0%B9%D1%82%D0%B5",
+    "relUrl": "/about/#hello-hola-hallå-hei-привет-здравейте"
   },"2": {
     "doc": "Contact",
     "title": "Contact",
@@ -24,14 +24,14 @@
     "relUrl": "/cost-analyses/"
   },"4": {
     "doc": "Basic RUM",
-    "title": "Budget - Open Source -  Real User Monitoring system.",
+    "title": "Open Source -  Real User Monitoring system.",
     "content": "A tasty mix of Boomerang JS, ClickHouse DB and Grafana. Demo . ",
-    "url": "https://www.basicrum.com/#budget---open-source----real-user-monitoring-system",
-    "relUrl": "/#budget---open-source----real-user-monitoring-system"
+    "url": "https://www.basicrum.com/#open-source----real-user-monitoring-system",
+    "relUrl": "/#open-source----real-user-monitoring-system"
   },"5": {
     "doc": "Basic RUM",
     "title": "What’s Basic RUM?",
-    "content": "Basic RUM is a budget, open source Real User Monitoring system aimed to enable web performance enthusiasts, consultants, Ops and developers and others to visualise and look at trends in performance data. Load tests proved that for about 15 Euro a month a website with 50 000 views a day / 1.5 million views a month could be efficiently monitored. Read more about the budget research. ",
+    "content": "Basic RUM is an open source Real User Monitoring system aimed to enable web performance enthusiasts, consultants, Ops, front-end developers and other interested parties visualise and look at trends in performance data. Load tests proved that for about 15 Euro a month a website with 50 000 views a day / 1.5 million views a month could be efficiently monitored. Read more about this in the Cost analyses section. ",
     "url": "https://www.basicrum.com/#whats-basic-rum",
     "relUrl": "/#whats-basic-rum"
   },"6": {
